@@ -1,0 +1,57 @@
+.avnform{
+    padding: 50px;
+}
+
+.tt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000000;
+    line-height: 5px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#ss{
+    width: 400px;
+}
+
+.promo{
+    display: flex;
+}
+
+.promo>label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    line-height: 5px;
+    margin-top: 20px;
+}
+
+#sis{
+    margin-top: 20px;
+    height: 53px;
+}
+
+#lbl{
+    margin-left: 120px;
+}
+
+.avnform>button{
+    margin-top: 70px;
+    height: 50px;
+    width: 700px;
+    margin-left: 240px;
+    border: none;
+    background-color: #244D4D;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
